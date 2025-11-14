@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hello — My Site</title>
+  <style>
+    :root { --bg: #f7f7fb; --fg:#0f172a; --muted:#6b7280; }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font-family:Inter,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:2rem}
+    .card{max-width:720px;text-align:center;padding:2rem;border-radius:12px;background:white;box-shadow:0 6px 24px rgba(15,23,42,0.06)}
+    h1{margin:0 0 .5rem;font-size:clamp(1.5rem, 3vw, 2.25rem)}
+    p{margin:0;color:var(--muted)}
+    a {color: #0366d6; text-decoration: none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Hello, world!</h1>
+      <p>Welcome — this is a fast static page ready for GitHub Pages.</p>
+      <p style="margin-top:.75rem"><a href="https://github.com">Visit GitHub</a></p>
+    </div>
+  </div>
+</body>
+</html>
